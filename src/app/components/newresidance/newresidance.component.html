@@ -1,0 +1,49 @@
+<div class="container mt-5 ">
+    <form  [formGroup]="residenceForm" (ngSubmit)="onSubmit()" >
+        <div class="row m-auto">
+       
+            <div class="col-md-5">
+                <input type="text" id="prenom" formControlName="prenom" placeholder="Prenom">
+            </div>
+            <div class="col-md-5">
+                <input type="text" id="nom" formControlName="nom" placeholder="Nom">
+            </div> 
+            
+            
+            <div class="col-md-5">
+                <input type="date" id="datenaissance" formControlName="datenaissance" placeholder="Date de naissance">
+            </div>
+            <div class="col-md-5">
+                <input type="text" id="lieunaissance" formControlName="lieunaissance" placeholder="Lieu de naissance">
+            </div>
+             
+            
+            <div class="col-md-5">
+                <input type="text" id="lieuresidence" formControlName="lieuresidence" placeholder="Lieu de residence">
+            </div>
+            <div class="col-md-5">
+                <input type="text" id="quartier" formControlName="quartier" placeholder="Quartier">
+            </div>
+            
+            
+            <div class="col-md-5">
+                <input type="text" id="dure" formControlName="dure" placeholder="Duree">
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <button  class="btn btn-info" >Retour</button>
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-success">Valider</button>
+            </div>
+        </div>
+    </form>
+    
+       
+        
+        
+    
+</div>

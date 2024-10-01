@@ -1,0 +1,90 @@
+<div class="container mt-2 ">
+    <form [formGroup]="extraitForm" (ngSubmit)="onSubmit()"  >
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id="pouranneel" formControlName="pouranneel" placeholder="Pour l'annee (en lettre) " required="anl">
+            </div>
+            <div class="col-md-6">
+                <input type="number" id="pouranneec" formControlName="pouranneec" placeholder="An (en chiffre) ">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id="numregistrel" formControlName="numregistrel" placeholder="No dans le Registre (en lettre) ">
+            </div>
+            <div class="col-md-6">
+                <input type="number" id="numregistrec" formControlName="numregistrec" placeholder="No dans le registre (en chiffre) ">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id="datenaissancel" formControlName="datenaissancel" placeholder="Date de naissance (en lettre) ">
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="lieunaissance" formControlName="lieunaissance" placeholder="Lieu de naissance">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id="prenom" formControlName="prenom" placeholder="Prenom">
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="nom" formControlName="nom" placeholder="Nom">
+                
+            </div>
+        </div>
+        <div class="col-md-2">
+            <input type="text" id="sexe" formControlName="sexe" placeholder="Sexe">
+        </div>
+
+        <div class="col-md-6">
+            <input type="text" id="prenomp" formControlName="prenomp" placeholder="Prenom du pere">
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id="prenomm" formControlName="prenomm" placeholder="Prenom de la mere">
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="nomm" formControlName="nomm" placeholder="Nom de la mere">
+            </div>
+        </div>
+
+        
+
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id=" datedelivrancel" formControlName=" datedelivrancel" placeholder="Date delivrance en lettre">
+            </div>
+            <div class="col-md-6">
+                <input type="datetime-local" id="datedelivrancec" formControlName="datedelivrancec" placeholder="Date delivrance en chiffre">
+            </div>
+        </div>
+
+
+        
+
+        <div class="row mt-4"> 
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-4">
+                <button class="btn btn-secondary" routerLink="/listeextrait">Annuler</button> 
+                
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-success" > Enregitrer </button>
+                
+            </div>
+            
+        </div>
+
+    </form>
+</div>
+
+
+<div class="row mt-5">
+   
+</div>

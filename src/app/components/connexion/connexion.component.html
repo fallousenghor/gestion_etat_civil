@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="m-auto  my-container">
+    <div class="card justify-content-md-center">
+      <div class="card-header text-center">
+        <h3>Se connecter</h3>
+      </div>
+      <div class="card-body">
+       
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <input type="email" class="form-control"  id="email" formControlName="email" placeholder="E-mail" >
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control"  id="password" formControlName="password" placeholder="Mot de passe">
+          </div>
+          <div class="mb-3 d-flex justify-content-between">
+            <a routerLink="/sign-up"  class="btn btn-link">S'inscrire</a>
+            <button type="button" class="btn btn-primary" (click)="onSubmit()">
+              <i class="fas fa-check"></i>&nbsp;Se connecter
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>

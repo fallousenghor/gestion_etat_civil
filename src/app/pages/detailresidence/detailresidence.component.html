@@ -1,0 +1,43 @@
+<div class="container mt-2" *ngIf="r">
+    <div class="card" >
+        <div class="row mt-2">
+            <div class="col-md-5 ">
+                <p class="text-center">Un Peuple - Un But - Une Foi</p>
+                <h4 class="text-center">REGION DE DAKAR</h4>
+                <h6 class="text-center">COMMUNE D'ARRONDISSEMENT DES <br> DES PARCELLES ASSAINIES</h6>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center mt-2">CERTIFICAT DE RESIDENCE</h2>
+                <p class="text-center">No Pneu monte  Kms Compteur  </p>  
+            </div>
+        </div>
+
+        <div class="row text-center mt-5">
+            <p>
+                Nous soussignes Maire de la Commune de .... <span>{{r.lieuresidence}} </span>....certifions <br> que Mr .. <span>{{r.prenom}}</span> ..   ..<span>{{r.nom}}</span>.. ne(e) le ..<span>{{r.datenaissance}}</span>.. <br>
+                a ..<span>{{r.lieunaissance}}</span>.. et qu'il reside a ... <span>{{r.lieuresidence}}</span>.. <br> au quartier ..<span>{{r.quartier}}</span>.. depUis ...<span>{{r.dure}}</span>..
+            </p>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-5">
+                <h6>cachet et timbre</h6>
+            </div>
+            <div class="col-md-5">
+                
+                <p>
+                    fait a ...<span>{{r.lieunaissance}}</span>.. le ...22/05/2024... <br>
+                    P . le Maire et p.o <br> l'officier de l'etat civil
+                </p>
+
+                <h6>cachet et signature</h6>
+                 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div >
+    
+    <button  class="btn btn-primary text-center mt-2 col-md-3" routerLink="/listeextrait"  >retour</button>
+    <button  class="btn btn-success text-center mt-2 col-md-3"   [routerLink] = "['/editextrait' ]" >generer</button>
+   </div>

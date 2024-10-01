@@ -1,0 +1,55 @@
+<div class="container my-container">
+    <div class="card justify-content-md-center">
+      <div class="card-header text-center">
+        <h3>S'inscrire</h3>
+      </div>
+      <div class="card-body">
+        <div class="alert alert-danger" *ngIf="errorsMsg.length > 0">
+          <div *ngFor="let msg of errorsMsg">
+            <span >{{msg}}</span>
+          </div>
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Prenom" [(ngModel)]="entrepriseDto.prenom">
+          </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Nom" [(ngModel)]="entrepriseDto.nom">
+        </div>
+        
+        
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Maire" [(ngModel)]="adresse.maire">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Region" [(ngModel)]="adresse.region">
+        </div><div class="mb-3">
+        <input type="text" class="form-control" placeholder="Departement" [(ngModel)]="adresse.departement">
+      </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Commune" [(ngModel)]="adresse.commune">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="ID agent" [(ngModel)]="adresse.idagent" >
+        </div>
+
+        <div class="mb-3">
+            <input type="email" class="form-control" placeholder="E-mail" [(ngModel)]="entrepriseDto.email">
+          </div>
+
+          <div class="mb-3">
+            <input type="password" class="form-control" placeholder="Mot de passe" [(ngModel)]="entrepriseDto.password">
+          </div>
+        
+        
+  
+        <div class="mb-3 d-flex justify-content-between">
+          <a  routerLink="/sign-in" class="btn btn-link">Se connecter</a>
+          <button type="button" class="btn btn-primary" >
+            <i class="fas fa-check"></i>&nbsp;S'inscrire
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  

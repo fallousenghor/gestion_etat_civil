@@ -1,0 +1,137 @@
+<div  class="container mb-2" *ngIf="extrait" id="contenu-a-imprimer">
+   
+    <div class="row  bordure m-auto mt-1" >
+        <div class="col-md-5">
+            <p class="text-center">REGION <br> FATICK <br> DEPARTEMENT <br> FATICK <br> COMMUNE DE DIOUROUP</p>
+        </div>
+        <div class="col-md-6 borde">
+            <div class="haut">
+                <h5 class="text-center">Republique du Senegal</h5>
+                <p class="text-center">Un Peuple-Un But-Une Foi</p>
+            </div>
+            <div class="bas">
+                <h5 class="text-center">ETAT CIVIL <br> CENTRE DE DIOUROUP</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-0 bordure  m-auto">
+        <div class="col-md-9 mt-2">
+            <h5 class="text-center">EXTRAIT DU REGISTRE DES ACTES DE NAISSANCE</h5>
+            <P class="text-center">Pour l'annee {{extrait.pouranneel}} ............................................................ </P>
+                          <P class="text-center chiffrelettre">en lettrs</P>
+            <P class="text-center">No dans le Registre  ....{{extrait.numregistrel}}............................................................... </P>
+        </div>
+        <div class="col-md-3 mt-2">
+            <p class="text-center">An .. <span>{{extrait.pouranneec}}</span> ....</p>
+            <p class="text-center"> <span>{{extrait.numregistrec}}</span> </p>
+            <P class="text-center chiffrelettre">No dans le registre en Chiffre</P>
+        </div>
+    </div>
+
+
+    <div class="row mt-1 m-auto">
+        <P class="text-center chiffrelettre">en lettrs</P>
+        <p class=" indent">Le.. {{extrait.datenaissancel}}  ...............................................................................................</p>
+        <div class="row">
+            <div class="col-md-9">
+                <p>a.............heures......................minutes  est ne(e) a  <span>......................</span> </p>
+            </div>
+            <div class="col-md-3">
+                <p>  <span>.........{{extrait.lieunaissance}}.............</span> </p>
+            </div>
+
+        </div>
+        <p>Un enfant de sexe  <span>{{extrait.sexe}}</span>  (4)    </p> 
+          <div class="row" >
+            <div class="col-md-8">
+                <p>Prenom(s): <span>{{extrait.prenom}} </span> </p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-center"> Nom de famille:  <span>{{extrait.nom}}</span></p>
+            </div>
+          </div>
+          <p>  Prenom(s) du pere: <span> {{extrait.prenomp}}</span>   </p> 
+
+          <div class="row" >
+            <div class="col-md-8">
+                <p> Prenom(s) de le mere:  <span>{{extrait.prenomm}} </span> </p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-center"> Nom de famille de la mere :<span>  {{extrait.nomm}}</span></p>
+            </div>
+          </div>
+          <p>Pays de naissance pour les naissances a l'etranger (3) ........................................................... </p>
+           <div class="chiffrelettre text-center"> (Ecriture en majuscule le lieu de naissance ,les prenoms et le nom) </div>
+    </div>
+
+
+    <div class="row bordure m-auto">
+        <div class="col-md-2 ">
+            <h6 class="mt-2">
+                (EX SUPPLETIF) <br> D'AUTORISATION <br> D'INSCRIPTION <br>JUGEMENT
+            </h6>
+        </div>
+        <div class="col-md-8 border ">
+            <p class="mt-2">Delivre par le juge de paix de ..................Fatick............................</p>
+            <p class="mt-2">Le {{extrait.datedelivrancel}}........................................</p>
+            <p class="mt-2">Sous le numero ........{{extrait.numregistrel}} .....................................</p>
+            <P class="mt-2">Inscrit le ..{{extrait.pouranneec}}...sur le registre des actes de naissances de l'annee </P>
+        </div>
+        <div class="col-md-2  ">
+            
+            <p class="mt-2"> <span>An</span> {{extrait.pouranneec}}......</p>
+            <p class="mt-2">...{{extrait.numregistrec}}....</p>
+             <p class="chiffrelettre mt-2"> (No du jugement en chiffre) </p>
+             <p class="mt-2">{{extrait.pouranneec}}......</p>
+        </div>
+    </div>
+
+
+    <div class="row bordure m-auto">
+        <div class="col-md-4">
+            <h6>EXTRAIT DELIVRE PAR LE CENTRE <br> DE DIOUROUP</h6>
+            <p class="chiffrelettre">(1) (2) (3) Notes et mentions marginales au versos</p>
+        </div>
+        <div class="col-md-4 cacher">
+            <img src="" alt="">
+            signature
+            
+        </div>
+        <div class="col-md-4">
+          <h6>POUR EXTRAIT CERTIFIE CONFORME <br> A DIOUROUP LE <span>{{extrait.datedelivrancec  }} </span></h6>
+          <p>L'officier d'etat civil soussigne</p>
+          <p>Prenoms et nom : SOULEYE SAGNE</p>
+           
+        </div>
+    </div>
+    <div class="row mb-2 m-auto">
+        <div class="col-md-1 text-center"></div>
+        <div class="col-md-1 text-center">RESERVE!</div>
+        <div class="col-md-1 text-center">3!0</div>
+        <div class="col-md-1 text-center">DEP</div>
+        <div class="col-md-1 text-center">CL</div>
+        <div class="col-md-1 text-center">CEC</div>
+        <div class="col-md-2 text-center">DN</div>
+        <div class="col-md-1 text-center">5</div>
+        <div class="col-md-1 text-center">PN</div>
+        <div class="col-md-1 text-center"></div>
+        <div class="col-md-1 text-center"></div> 
+    </div>
+    
+   
+   </div>
+   
+  <div >
+    
+   <button  class="btn btn-primary text-center  col-md-3" routerLink="/listeextrait"  >retour</button>
+   <button  class="btn btn-success text-center  col-md-3"   [routerLink] = "['/editextrait' , extrait.id]" >generer</button>
+  </div>
+
+    <div class="col-md-12 mt-5 mb-5"> </div>
+  
+<div class="row mt-5" *ngIf="!extrait">
+   <p>article non trouve</p>
+   <a routerLink="/listeextrait" class="btn btn-primary"  >Retour a la liste</a> 
+</div>
+

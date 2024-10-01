@@ -1,0 +1,172 @@
+{
+  "mairie": [
+    {
+      "id": "d0f9",
+      "pouranneel": "deux mille six",
+      "pouranneec": 2006,
+      "numregistrec": 1441,
+      "numregistrel": "mille quatre cent quarante un ",
+      "datenaissancel": "quinze janvier mille neuf cent quatre vingt dix huit",
+      "lieunaissance": "Diouroup",
+      "prenom": "Fallou",
+      "nom": "Senghor",
+      "sexe": "H",
+      "prenomp": "Pierre Semou",
+      "prenomm": "Maimouna",
+      "nomm": "Ngom",
+      "datedelivrancel": "",
+      "datedelivrancec": "2024-08-24"
+    },
+    {
+      "id": "44c9",
+      "pouranneel": "deux mille deux",
+      "pouranneec": 2002,
+      "numregistrec": 4600,
+      "numregistrel": "quatre mille six cents",
+      "datenaissancel": "vingt janvier deux mille deux",
+      "lieunaissance": "Niakhar",
+      "prenom": "Ndeye Fatou",
+      "nom": "Bakhoum",
+      "sexe": "F",
+      "prenomp": "Alioune",
+      "prenomm": "Ndeye Adame",
+      "nomm": "Diouf",
+      "datedelivrancel": "",
+      "datedelivrancec": "2024-08-24"
+    },
+    {
+      "id": "71aa",
+      "pouranneel": "deux mille six",
+      "pouranneec": 2006,
+      "numregistrec": 4926,
+      "numregistrel": "quatre mille neuf cent vingt six",
+      "datenaissancel": "premier janvier mille neuf cent quatre vingt douze",
+      "lieunaissance": "Mbour",
+      "prenom": "Papa Babacar Ngor",
+      "nom": "Senghor",
+      "sexe": "H",
+      "prenomp": "Pierre Semou",
+      "prenomm": "Maimouna",
+      "nomm": "Ngom",
+      "datedelivrancel": "",
+      "datedelivrancec": "2024-08-24"
+    },
+    {
+      "id": "1c35",
+      "pouranneel": "deux mille six",
+      "pouranneec": 2000,
+      "numregistrec": -2,
+      "numregistrel": "mille quatre cent quarante un ",
+      "datenaissancel": "quinze janvier mille neuf cent quatre vingt dix huit",
+      "lieunaissance": "Diouroup",
+      "prenom": "ousmane",
+      "nom": "sonko",
+      "sexe": "H",
+      "prenomp": "aliou",
+      "prenomm": "fatou",
+      "nomm": "ngom",
+      "datedelivrancel": "",
+      "datedelivrancec": "2024-09-02T14:20"
+    },
+    {
+      "id": "e119",
+      "pouranneel": "deux mille six",
+      "pouranneec": 2000,
+      "numregistrec": -2,
+      "numregistrel": "mille quatre cent quarante un ",
+      "datenaissancel": "quinze janvier mille neuf cent quatre vingt dix huit",
+      "lieunaissance": "Diouroup",
+      "prenom": "ousmane",
+      "nom": "sonko",
+      "sexe": "H",
+      "prenomp": "aliou",
+      "prenomm": "fatou",
+      "nomm": "ngom",
+      "datedelivrancel": "",
+      "datedelivrancec": "2024-09-02T14:20"
+    },
+    {
+      "id": "45e2",
+      "pouranneel": "deux mille six",
+      "pouranneec": 1200,
+      "numregistrec": 1200,
+      "numregistrel": "mille quatre cent quarante un ",
+      "datenaissancel": "quinze janvier mille neuf cent quatre vingt dix huit",
+      "lieunaissance": "Diouroup",
+      "prenom": "Fallou",
+      "nom": "sonko",
+      "sexe": "H",
+      "prenomp": "Ousmane",
+      "prenomm": "fatou",
+      "nomm": "Diouf",
+      "datedelivrancel": "",
+      "datedelivrancec": "2024-09-04T15:45"
+    }
+  ],
+  "user": [
+    {
+      "id": "9ead",
+      "prenom": "Fallou",
+      "nom": "Senghor",
+      "maire": "pape",
+      "email": "fallousenghor@gmail.com",
+      "password": "123456",
+      "region": "dk",
+      "idagent": "123aaa",
+      "departement": "dk",
+      "commune": "Dakar"
+    }
+  ],
+  "residence": [
+    {
+      "id": "c2b4",
+      "prenom": "Fallou",
+      "nom": "Senghor",
+      "datenaissance": "2024-08-31",
+      "lieuresidence": "foire",
+      "quartier": "foire",
+      "dure": "2 ans",
+      "lieunaissance": "Diouroup"
+    },
+    {
+      "id": "fc79",
+      "prenom": "Papa Babacar Ngor",
+      "nom": "Senghor",
+      "datenaissance": "1998-01-15",
+      "lieuresidence": "Yoff",
+      "quartier": "Ouest Foire",
+      "dure": "2 ans",
+      "lieunaissance": "Mbour"
+    },
+    {
+      "id": "650f",
+      "prenom": "Aby",
+      "nom": "Bakhoum",
+      "datenaissance": "1998-01-31",
+      "lieuresidence": "Diouroup",
+      "quartier": "Backem",
+      "dure": "3 ans",
+      "lieunaissance": "Diouroup"
+    },
+    {
+      "id": "cbab",
+      "prenom": "Fallou",
+      "nom": "Senghor",
+      "datenaissance": "2024-09-02",
+      "lieuresidence": "Diouroup",
+      "quartier": "foire",
+      "dure": "2 ans",
+      "lieunaissance": "Diouroup"
+    },
+    {
+      "id": "59c8",
+      "prenom": "Fallou",
+      "nom": "Senghor",
+      "datenaissance": "2024-09-04",
+      "lieuresidence": "Diouroup",
+      "quartier": "foire",
+      "dure": "2 ans",
+      "lieunaissance": "yoff"
+    }
+  ]
+}

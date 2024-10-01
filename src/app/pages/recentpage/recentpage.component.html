@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-3 " [routerLink] = "['/extrait' , e.id]" *ngFor="let e of extraits">
+            <h6 class="text-center"> {{e.prenom}}  {{e.nom}}</h6>
+            <div class="card">
+
+                
+                        <h5 class="text-center ">EXTRAIT DU REGISTRE DES ACTES DE NAISSANCE</h5>
+                        <P class="text-center ">Pour l'annee {{e.pouranneec}} (2)
+                            ............................................................ </P>
+                        
+                   
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        
+
+
+
+
+
+    </div>
+</div>

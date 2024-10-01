@@ -1,0 +1,37 @@
+<div class="container- mt-3">
+   
+    
+
+    <table class="table ">
+        <thead  >
+            <tr >
+                <th >Prenom</th>
+                <th>Nom</th>
+                <th>Date de naissnce</th>
+                <th>No Registre</th>
+                <th>Annee Registre</th>
+                <th>Options</th>
+            </tr>
+        </thead>
+
+        <tbody >
+            
+            <tr *ngFor="let e of filterPersonne " >
+               
+                <td > {{e.prenom}} </td>
+                <td>{{e.nom }}</td>
+                <td>{{e.pouranneec}}</td>
+                <td>{{e.numregistrec}}</td>
+                <td>{{e.prenomp}}</td>
+                <td class="btn btn-success outline-success link" [routerLink] = "['/extrait' , e.id]" >voir</td>
+            
+            
+            </tr>
+        
+            
+            
+           
+        </tbody>
+
+    </table>
+</div>

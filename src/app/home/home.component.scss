@@ -1,0 +1,14 @@
+
+  .min-height-600 {
+   min-height: 600px;
+  }
+  .no-flex-wrap {
+    flex-wrap: inherit !important;
+  }
+
+  .home-container{
+    max-height: 480px;
+    overflow-y:auto;
+    border:1px solid #ccc;
+
+  }

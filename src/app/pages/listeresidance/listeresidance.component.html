@@ -1,0 +1,41 @@
+<div class="container">
+   
+    <div class="new mb-3" routerLink="/newresidence">
+        <button class="btn btn-success" >
+            Nouveau Enregitrement
+        </button>
+    </div>
+    
+
+    <table class="table ">
+        <thead>
+            <tr>
+                <th >Prenom</th>
+                <th>Nom</th>
+                <th>Date de naissnce</th>
+                <th>Lieu de Naissance</th>
+                <!-- <th>CNI</th> -->
+                <th>Lieu de Residence</th>
+                <th>Options</th>
+            </tr>
+        </thead>
+
+        <tbody >
+            <tr *ngFor="let r of residence ">
+                <td >{{r.prenom}} </td>
+                <td>{{r.nom}}</td>
+                <td>{{r.datenaissance}}</td>
+                <td>{{r.lieunaissance}}</td>
+                <td>{{r.lieuresidence}}</td>
+                <td class="btn btn-success outline-success link" [routerLink] = "['/residence' , r.id ]" >voir</td> 
+                
+                
+            </tr>
+
+            
+            
+           
+        </tbody>
+
+    </table>
+</div>
