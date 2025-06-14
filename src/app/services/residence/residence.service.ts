@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ResidenceService {
 
-  private apiUrl = 'http://localhost:3000/residence';
+  private apiUrl = 'https://backend-gec.onrender.com/residence';
 
   residence!: Residence;
 
