@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ExtraitService {
 
-  private apiUrl = 'http://localhost:3000/mairie';
+  private apiUrl = 'https://backend-gec.onrender.com/mairie';
 
   extrait!: Extrait;
 
