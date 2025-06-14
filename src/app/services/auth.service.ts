@@ -10,8 +10,8 @@ import { error } from 'console';
 })
 export class AuthService {
 
-  public login_url = " http://localhost:3000/user";
-  public reg_url = " http://localhost:3000";
+  public login_url = " https://backend-gec.onrender.com/user";
+  public reg_url = " https://backend-gec.onrender.com";
   private isLoggIn = false;
 
   constructor(private http: HttpClient, private router : Router,private apiService:ApiService) { }
