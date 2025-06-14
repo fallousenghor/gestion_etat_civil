@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class NewEtudiantService {
 
-  private apiUrl = 'http://localhost:3000'; // Remplacez par l'URL de votre serveur JSON
+  private apiUrl = 'https://backend-gec.onrender.com';
 
   constructor(private http: HttpClient) { }
 
